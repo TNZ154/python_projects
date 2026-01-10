@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import datetime
 
 # using now() to get current time
@@ -10,3 +11,17 @@ print(current_time)
 # print calendar of year 2021
 import calendar
 print("\n", calendar.calendar(2021))
+=======
+import datetime
+
+# using now() to get current time
+current_time = datetime.datetime.now()
+
+# Printing value of now.
+print("Time now at greenwich meridian is : ", end="")
+print(current_time)
+
+# print calendar of year 2021
+import calendar
+print("\n", calendar.calendar(2021))
+>>>>>>> 04f4f434b6609e253de28b49b9850fc6e0c70d01
